@@ -1,2 +1,2 @@
 # DAWN
-script during DAWN project. 
+script written for DAWN project. 
