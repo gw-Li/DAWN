@@ -1,0 +1,1 @@
+use python to download,convert data from grib2 to nc, and regrid to CWRF grid.
