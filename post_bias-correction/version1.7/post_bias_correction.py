@@ -17,6 +17,7 @@ Version Information:
                     set path_cwrf_raw as an argument instead of hardcoding.
         2023-11-29: Fixed the bug of calculation error in regions outside the US.
         2024-02-14: Not apply post bias_correction this time.
+        2025-02-14: Adjusted the order of if structures （in line 286-293).
 
 
 Dependencies:
@@ -284,10 +285,10 @@ def calculate_the_ensemble_mean(vname,path_cwrf_raw, raw_init_date, path_pbc):
 
 def kinds(var_name):
     
-    if var_name == 'T2MAX' or var_name == 'T2MIN':
-        kind    = '+'
-    else:
+    if var_name == 'PRAVG' or var_name == 'ASWDNS':
         kind    = '*'
+    else:
+        kind    = '+'
     
     return kind
 
