@@ -1,9 +1,6 @@
 # DAWN
 Script written for DAWN project. Including:
 
-## CQM
-The newly developed bias-correction method for summer precipitation predictions.
-
 ## For_data-viewer
 The script to calculate and show the DAWN predictions to public.
 
